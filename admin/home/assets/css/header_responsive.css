@@ -1,0 +1,21 @@
+@media only screen and (max-width: 992px) {
+	.header-area{
+		background:rgba(5,5,5,0.6);
+	}
+	.header-area .header-menu nav{
+		display:none;
+	}
+	.header-area .header-bar{
+	  display:block;
+	}
+	.header-area .header-menu nav ul li{
+		display:block;
+		margin:10px auto;
+	}
+  
+}
+@media only screen and (min-width: 993px){
+	.header-area .header-menu nav{
+		display:block!important;
+	}
+}

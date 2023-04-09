@@ -1,0 +1,11 @@
+.edit-section{
+	margin-top:100px;
+}
+.edit-section .edit-title h2{
+	display:block;
+	text-align:center;
+	font-size:35px;
+	color:#ffffff;
+	margin: 20px auto;
+	text-shadow: 5px 5px 5px black;
+}

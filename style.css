@@ -1,0 +1,14 @@
+.header-footer p{
+	color:yellow;
+	display:block;
+	font-size:20px;
+}
+.header-footer p a{
+	color:red;
+	text-decoration:none;
+	font-size:20px;
+	transition:0.3s;
+}
+.header-footer p a:hover{
+	color:yellow;
+}

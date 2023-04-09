@@ -1,0 +1,68 @@
+/* add.php file css start form here*/
+.middle-area-std{
+	margin-top:100px;
+}
+.middle-area-std .add-student {
+	width:60%;
+	display:block;
+	margin:0px auto;
+}
+.middle-area-std .add-student form{
+	width:80%;
+	display:block;
+	margin:0px auto;
+	padding:20px;
+	background: rgba(10,10,10,0.5);
+	border-radius:10px;
+}
+
+.middle-area-std .add-student form label{
+	margin-top:15px;
+	font-size:20px;
+	text-align:center;
+	color:#fff;
+	display:block;
+	margin-bottom:5px;
+}
+.middle-area-std .add-student form input{
+	background:transparent;
+	outline:none;
+	border:1px solid yellow;
+	border-radius:5px;
+	color:white;
+	margin-bottom:5px;
+	font-size:18px;
+}
+.middle-area-std .add-student form input::placeholder{
+	color:#e1dede;
+}
+.middle-area-std .add-student form #setedobmafeo{
+	display:inline-block;
+	margin-right:5px;
+}
+.middle-area-std .add-student form .semester,.technology,.dob,.gender{
+	display:block;
+}
+.middle-area-std .add-student form input[type="submit"]{
+	border:none;
+	background: white;
+	width:150px;
+	display:block;
+	margin:20px auto;
+	color:black;
+	transition:0.3s;
+	padding: 5px;
+}
+.middle-area-std .add-student form input[type="submit"]:hover{
+	background:#cec9c9;
+}
+.middle-edit-title h2{
+	margin-top:100px;
+	text-align:center;
+	font-size: 35px;
+	color:white;
+	text-shadow:5px 5px 5px black;
+}
+.middle-area-std {
+	margin-top: 30px;
+}

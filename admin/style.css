@@ -1,0 +1,143 @@
+/*header design start here*/
+body{
+	background:#000000;
+	background-image:url("assets/image/background.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	margin:0px;
+	background-position:center center;
+}
+.header{
+	padding: 20px 10px;
+	margin: 0px auto;
+	 background-color:rgba(3, 45, 76, 0.39);
+}
+.header-area .header-title h2{
+	text-align:center;
+	font-size:35px;
+	color:#ffffff;
+	margin:0px;
+}
+.middle-box{
+	background-color:rgba(3, 45, 76, 0.39);
+	width:50%;
+	margin: 170px auto;
+	border-radius: 10px;
+	padding: 20px;
+}
+.middle-box form {
+	width: 90%;
+	margin: 20px auto;
+}
+.middle-box form p{
+	color:yellow;
+	font-size:17px;
+}
+.middle-box form p a{
+	color:red;
+	font-size:17px;
+	text-decoration:none;
+	transition: 0.3s;
+}
+.middle-box form p a:hover{
+	color:yellow;
+}
+.middle-box form label{
+	font-size: 25px;
+	color: #ffffff;
+	margin-top: 15px;
+	display:block;
+	text-align:center;
+}
+.middle-box form input{
+	width: 80%;
+	padding:5px 10px;
+	font-size:18px;
+	display:block; 
+	margin:auto;
+	border:none;
+	outline:none;
+	background: #f0f0f0;
+}
+.middle-box form input[type="text"]:focus{
+	background:#ffffff;
+	border:none;
+	outline:none;
+}
+.middle-box form input[type="password"]:focus{
+	background:#ffffff;
+	border:none;
+	outline:none;
+}
+.middle-box form input[type="submit"] {
+  font-size: 25px;
+  margin: 20px auto;
+  display: block;
+  padding: 2px 20px;
+  width:180px;
+  transition: 0.3s;
+  border-radius:7px;
+  margin-top:30px;
+  background: #f0f0f0;
+}
+.middle-box form input[type="submit"]:hover{
+	color: #ffffff;
+	background: black;
+}
+
+/*header design end here*/
+
+
+
+/*footer design start here*/
+.footer {
+	background: rgba(10, 10, 10, 0.66);
+	padding:20px auto;
+	color: #ffffff;
+	font-size: 20px;
+	text-align:center;
+	margin: 0px;
+}
+.footer-area p{
+	margin: 0px;
+	padding: 15px;
+}
+.footer-area p a{
+	text-decoration:none;
+	color:#ffffff;
+	transition: 0.3s;
+}
+.footer-area p a:hover{
+	color:#aeaeae;
+}
+/*footer end here*/
+
+#show-pass{
+	display:block;
+}
+
+#show-pass input{
+	display:inline-block;
+	margin-top:0px;
+	width:15px;
+	margin-left:55px;
+}
+#show-pass label{
+	display:inline-block;
+	margin:0px auto;
+	font-size:15px;
+}
+.header-last p{
+	font-size:20px;
+	display:block;
+	color:yellow;
+}
+.header-last p a{
+	font-size:20px;
+	text-decoration:none;
+	color:red;
+	transition:0.3s;
+}
+.header-last p a:hover{
+	color:yellow;
+}

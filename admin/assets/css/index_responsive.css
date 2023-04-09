@@ -1,0 +1,23 @@
+@media only screen and (max-width: 767px) {
+  .middle-box{
+	  width:80%;
+  }
+}
+@media only screen and (max-width: 576px) {
+.middle-box form input[type="submit"]{
+	width:30%;
+	font-size:18px;
+}
+}
+@media only screen and (max-width: 492px) {
+.middle-box form input[type="submit"]{
+	width:50%;
+	font-size:18px;
+}
+}
+@media only screen and (max-width: 300px) {
+.middle-box form input[type="submit"]{
+	width:80%;
+	font-size:18px;
+}
+}

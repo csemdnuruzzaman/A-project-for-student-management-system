@@ -1,0 +1,22 @@
+.middle-edit-title {
+	margin:0px;
+	background:rgba(5,5,5,0.3);
+}
+.middle-edit-title h2{
+	margin:0px;
+	padding:15px;
+}
+.add-student form #data{
+	color:yellow;
+	font-size:18px;
+	display:block;
+}
+.add-student form #data a{
+	color:red;
+	font-size:18px;
+	text-decoration:none;
+	transition:0.3s;
+}
+.add-student form #data a:hover{
+	color:yellow;
+}

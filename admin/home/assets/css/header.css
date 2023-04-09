@@ -1,0 +1,50 @@
+body{
+	margin:0;
+	padding:0px;
+	background-image: url("../../../assets/image/background.jpg");
+	background-size:cover;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+.header-area {
+	background:rgba(5,5,5,0.4);
+	position:fixed;
+	display:block;
+	width:100%;
+	top:0px;
+	left:0px;
+}
+.header-menu nav ul{
+	list-style:none;
+	margin:0px;
+	padding:20px 0px;
+	display:block;
+}
+.header-menu nav ul li{
+	display:inline-block;
+	margin:0px;
+}
+.header-menu nav ul li a:hover{
+	background:black;
+}
+.header-menu nav ul li a{
+	color: white;
+	text-decoration:none;
+	font-size:20px;
+	padding:10px 15px;
+}
+.header-menu .header-bar{
+	display:none;
+}
+.header-menu .header-bar a{
+	text-decoration:none;
+	display:block;
+}
+.header-menu .header-bar a i{
+	color:#fff;
+	font-size:25px;
+	padding:20px;
+	cursor:pointer;
+	float:right;
+}

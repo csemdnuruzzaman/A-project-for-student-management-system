@@ -1,0 +1,23 @@
+.footer-area{
+	background: rgba(10, 10, 10, 0.66);
+	display:block;
+	width:100%;
+	padding:10px;
+	margin-top:100px;
+}
+.footer-area .footer-title p{
+	margin:0px;
+	text-align:center;
+	display:block;
+	color:white;
+	font-size: 18px;
+}
+.footer-area .footer-title p a{
+	text-decoration:none;
+	color:white;
+	transition:0.3s;
+}
+.footer-area .footer-title p a:hover{
+	color:#979797;
+}
+

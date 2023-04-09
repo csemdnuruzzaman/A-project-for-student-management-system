@@ -1,0 +1,40 @@
+.others-section{
+	margin-top:100px;
+}
+.others-section .info{
+	width:60%;
+	display:block;
+	background: rgba(10,10,10,0.4);
+	padding:20px;
+	border-radius: 10px;
+	margin:0px auto;
+}
+.others-section .info ul{
+	list-style-type:decimal;
+	margin: 10px;
+	padding:0px;
+}
+.others-section .info ul li{
+	color:#ffffff;
+	font-size: 25px;
+	margin:10px 20px;
+}
+.others-section .info ul li span{
+	color:yellow;
+}
+.others-section .info p a {
+	color: #fff;
+	text-decoration: none;
+	background: white;
+	color: black;
+	padding: 5px;
+	margin-top: 15px;
+	display: block;
+	width: 20%;
+	text-align: center;
+	border-radius: 5px;
+	margin: 10px auto;
+}
+.footer-area{
+	margin-top:50px;
+}
